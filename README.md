@@ -15,7 +15,7 @@ while True:
         print('\nWalking up the eerie steps to the door, the anxious group makes their way into the house.\n\nAs they walk in, the glooming lights flicker a little as they walk on the creaking floorboards. All of them in unison ask, "Do you hear that?", as they all point to different areas of the house. Each person in the group walks toward the sound, but it is coming from different rooms for each of them.\nWill they make it out alive?\n')
 
         #First character
-        answer = input('\n\nTyler...\n\nAs Tyler makes his way to the kitchen, he catches a glimpse of a gloomy shadow passing the entrance. In the kitchen, he notices a note on the wall. It reads.. "Will you run (1) or will you stay (2)?" Suddenly, there is loud screeching heading towards you. What will you do?\n')
+        answer = input('\n\nTyler...\n\nAs  makes his way to the kitchen, he catches a glimpse of a gloomy shadow passing the entrance. In the kitchen, he notices a note on the wall. It reads.. "Will you run (1) or will you stay (2)?" Suddenly, there is loud screeching heading towards you. What will you do?\n')
         while answer not in choices:
             answer = input("Please try again\n")
         if answer == "1":
